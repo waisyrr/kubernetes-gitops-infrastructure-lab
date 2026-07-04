@@ -111,35 +111,6 @@ The goal of the project is to demonstrate hands-on ability with Kubernetes opera
 
 ---
 
-## 📂 Repository Structure
-
-```text
-.
-├── charts/
-│   └── nginx/
-│       ├── Chart.yaml
-│       ├── values.yaml
-│       └── templates/
-│           ├── deployment.yaml
-│           └── service.yaml
-├── manifests/
-│   ├── namespace/
-│   │   └── namespace.yaml
-│   ├── nginx/
-│   │   ├── deployment.yaml
-│   │   └── service.yaml
-│   └── security/
-│       ├── serviceaccount.yaml
-│       ├── role.yaml
-│       ├── rolebinding.yaml
-│       └── networkpolicy.yaml
-├── terraform/
-├── screenshots/
-└── README.md
-```
-
----
-
 ## 🔄 Deployment Workflow
 
 1. 🛠️ Verify local tooling: Docker, kubectl, Helm, Terraform, Argo CD CLI, and Trivy
